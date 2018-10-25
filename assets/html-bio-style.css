@@ -12,7 +12,7 @@ h1 {
     background-color: black;
     margin: 0;
     text-align: center;
-    padding: 20px 0;
+    padding: 1em 0;
     font-size: 28px;
 }
 
@@ -57,7 +57,7 @@ a:hover {
 #bio-image {
     width: 30%;
     height: 30%;
-    margin-right: 20px;
+    margin-right: 1em;
     border: 5px solid teal;
 }
 
@@ -67,6 +67,7 @@ a:hover {
 #wrapper {
     display: flex;
     justify-content: center;
+    align-items: center; (or flex-start)
 }
 
 div {
