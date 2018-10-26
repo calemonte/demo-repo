@@ -33,45 +33,25 @@ a:hover {
 
 /* Sections and Containers */
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-#main-bio,
-#contact-info,
-#bio-image {
-    float: left;
+#wrapper {
+   display: flex;
+   justify-content: space-around;
 }
 
 #main-bio {
-    width: 70%;
+    flex: 2;
+    margin-left: 2em;
 }
-
 #contact-info {
-    width: 30%;
+    flex: 1;
 }
 
 /* Images */
 
 #bio-image {
-    width: 30%;
-    height: 30%;
+    width: 200px;
+    height: 200px;
     margin-right: 1em;
     border: 5px solid teal;
+    float: left;
 }
-
-
-/* 
-
-#wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center; (or flex-start)
-}
-
-div {
-    flex: 1
-}
-
-*/
